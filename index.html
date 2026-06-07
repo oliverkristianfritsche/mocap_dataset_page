@@ -2,22 +2,22 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="A dataset for deep learning applications focusing on upper body kinematic analysis using multimodal IMU and EMG data.">
-  <meta property="og:title" content="Upper Body Kinematic Analysis Dataset"/>
-  <meta property="og:description" content="Explore this detailed dataset for upper body kinematic analysis with synchronized IMU and EMG data."/>
-  <meta property="og:url" content="YOUR_PROJECT_URL"/>
-  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta name="description" content="ULTRA-MoCap: a multimodal IMU and sEMG dataset for upper body joint kinematics analysis, published in Scientific Data.">
+  <meta property="og:title" content="ULTRA-MoCap Dataset"/>
+  <meta property="og:description" content="Synchronized IMU, sEMG, and motion-capture joint kinematics from 13 subjects. Published in Scientific Data (2026)."/>
+  <meta property="og:url" content="https://oliverkristianfritsche.github.io/mocap_dataset_page/"/>
+  <meta property="og:image" content="static/images/Movements2.png" />
   <meta property="og:image:width" content="1200"/>
   <meta property="og:image:height" content="630"/>
 
-  <meta name="twitter:title" content="Upper Body Kinematic Analysis Dataset">
-  <meta name="twitter:description" content="Multimodal IMU and EMG data for upper body kinematic analysis.">
-  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:title" content="ULTRA-MoCap Dataset">
+  <meta name="twitter:description" content="Multimodal IMU, sEMG, and motion-capture dataset for upper body joint kinematics analysis.">
+  <meta name="twitter:image" content="static/images/Movements2.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="keywords" content="Kinematics, EMG, IMU, Upper Body, Dataset, Machine Learning, Biomechanics">
+  <meta name="keywords" content="Kinematics, sEMG, IMU, Upper Body, Dataset, Machine Learning, Biomechanics, Motion Capture">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Upper Body Kinematic Dataset</title>
+  <title>ULTRA-MoCap Dataset</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
   <link rel="stylesheet" href="static/css/bulma.min.css">
@@ -41,18 +41,53 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Multimodal IMU and EMG Dataset for Deep Learning in Upper Body Kinematic Analysis</h1>
+          <h1 class="title is-1 publication-title">ULTRA-MoCap: A Multimodal IMU and sEMG Dataset for Upper Body Joint Kinematics Analysis</h1>
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><a href="#" target="_blank">Oliver Fritsche</a>,</span>
-            <span class="author-block"><a href="#" target="_blank">Steven Camacho</a>,</span>
-            <span class="author-block"><a href="#" target="_blank">Tyler Halpenny</a>,</span>
-            <span class="author-block"><a href="#" target="_blank">Carlos Archniegas</a>,</span>
-            <span class="author-block"><a href="#" target="_blank">Sanzid Bin Hossain</a>,</span>
-            <span class="author-block"><a href="#" target="_blank">Joseph Dranetz</a>,</span>
-            <span class="author-block"><a href="#" target="_blank">Hwan Choi</a></span>
+            <span class="author-block">Oliver Fritsche<sup>1</sup>,</span>
+            <span class="author-block">Steven Camacho<sup>1</sup>,</span>
+            <span class="author-block">Md Sanzid Bin Hossain<sup>1,2</sup>,</span>
+            <span class="author-block">Tyler Halfpenny<sup>1</sup>,</span>
+            <span class="author-block">Carlos Arciniegas<sup>1</sup>,</span>
+            <span class="author-block">Joseph Dranetz<sup>1</sup>,</span>
+            <span class="author-block">Dexter Hadley<sup>1</sup>,</span>
+            <span class="author-block">Zhishan Guo<sup>3</sup>,</span>
+            <span class="author-block">Hwan Choi<sup>1</sup></span>
           </div>
           <div class="is-size-5 publication-authors">
-            <span class="author-block">University of Central Florida<br>2024</span>
+            <span class="author-block"><sup>1</sup>University of Central Florida &nbsp;
+              <sup>2</sup>Emory University &nbsp; <sup>3</sup>North Carolina State University</span>
+          </div>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><em>Scientific Data</em> <b>13</b>, 622 (2026)</span>
+          </div>
+          <div class="publication-links" style="margin-top: 1rem;">
+            <span class="link-block">
+              <a href="https://doi.org/10.1038/s41597-026-06687-5" target="_blank"
+                 class="external-link button is-normal is-rounded is-dark">
+                <span class="icon"><i class="fas fa-file-pdf"></i></span><span>Paper</span>
+              </a>
+            </span>
+            <span class="link-block">
+              <a href="https://doi.org/10.6084/m9.figshare.28751156.v1" target="_blank"
+                 class="external-link button is-normal is-rounded is-dark">
+                <span class="icon"><i class="fas fa-database"></i></span><span>Dataset (figshare)</span>
+              </a>
+            </span>
+            <span class="link-block">
+              <a href="https://github.com/oliverkristianfritsche/UpperBody_Kinematics_Prediction" target="_blank"
+                 class="external-link button is-normal is-rounded is-dark">
+                <span class="icon"><i class="fab fa-github"></i></span><span>Benchmark Code</span>
+              </a>
+            </span>
+            <span class="link-block">
+              <a href="https://github.com/oliverkristianfritsche/MocapDatasetScripting_REALLAB" target="_blank"
+                 class="external-link button is-normal is-rounded is-dark">
+                <span class="icon"><i class="fab fa-github"></i></span><span>Processing Scripts</span>
+              </a>
+            </span>
+          </div>
+          <div class="is-size-6" style="margin-top: 0.75rem;">
+            <span>Dataset license: CC BY-NC-ND 4.0</span>
           </div>
         </div>
       </div>
@@ -67,16 +102,21 @@
         <div class="column is-four-fifths">
           <h2 class="title is-3">Abstract</h2>
           <div class="content has-text-justified">
-            <p>The prediction of human kinetics and kinematics from multimodal sensor input has numerous applications, including biometrics
-              for rehabilitation, sports analysis, human-computer interaction for VR and AR, and alternative motion capture methods that
-              are less intrusive. The demand for human motion data has increased, particularly for training bipedal and humanoid robotic
-              systems, which can be costly and time-consuming to collect using traditional motion capture methods. While some existing
-              datasets attempt to address this need using traditional motion capture, few public datasets include high-fidelity sEMG and IMU
-              pairings. We aim to contribute with a novel dataset that includes approximately 624,000 frames of motion data, along with
-              Inertial Measurement Units (IMUs) placed on the hand, wrist, forearm, bicep, tricep, and deltoid, and Surface Electromyography
-              (sEMG) sensors on the bicep, tricep, and deltoid for a single arm. This data was collected from 13 healthy subjects (10 male, 3
-              female), aged 18-32. Each participant performed 16 trials designed to cover the full range of motion (ROM) for the upper body.
-              This paper provides a detailed description of the collection methodology and processing pipeline.</p>
+            <p>Human upper limb movement prediction from multi-modal wearable sensors has applications in
+              rehabilitation, sports analysis, assistive device control, and human-computer interaction,
+              offering less intrusive alternatives to camera-based motion capture (MoCap) systems. Yet,
+              current datasets often lack comprehensive multi-modal data integrating inertial measurement
+              unit (IMU) and surface electromyography (sEMG) sensors and have limited coverage of upper limb
+              kinematics with insufficient fidelity to capture isolated single-joint elbow motions and
+              coordinated multi-joint shoulder movements. To address these gaps, we introduce the Upper Limb
+              Tracking with Multi-modal Capture (ULTRA-MoCap) dataset, which integrates multi-modal sensing
+              with IMU, sEMG, and high-fidelity upper limb kinematics modeling from a multi-degree-of-freedom
+              musculoskeletal model. Data from IMUs on the hand, wrist, and forearm, along with combined
+              sEMG/IMU sensors on the biceps brachii, triceps brachii, and deltoid, were collected from
+              thirteen subjects performing five upper limb movements at different speeds. This paper describes
+              the data collection, sensor configuration, and processing pipeline and highlights ULTRA-MoCap's
+              potential to support a wide range of research across biomechanics, wearable sensing, and motion
+              analysis.</p>
           </div>
         </div>
       </div>
@@ -102,22 +142,26 @@
     }
   </style>
   
-  <!-- Image carousel -->
+  <!-- Image carousel (figures from the published paper) -->
   <section class="hero is-small">
     <div class="hero-body">
       <div class="container">
         <div id="results-carousel" class="carousel results-carousel">
           <div class="item">
-            <img src="./static/images/Movements2.png" alt="Movement Visualization">
-            <h2 class="subtitle has-text-centered">Movement Visualization</h2>
+            <img src="./static/images/paper/fig1.png" alt="The five upper limb movements">
+            <h2 class="subtitle has-text-centered">Figure 1. The five movements: arm swing, crossbody reach, elbow flexion, shoulder rotation, and overhead reach (performed at varied speeds).</h2>
           </div>
           <div class="item">
-            <img src="./static/images/Markerset.png" alt="Marker Setup">
-            <h2 class="subtitle has-text-centered">Marker Setup for Motion Capture</h2>
+            <img src="./static/images/paper/fig2.png" alt="Marker set and sensor placement">
+            <h2 class="subtitle has-text-centered">Figure 2. Optical marker set (a) and IMU / sEMG sensor placement on the upper limb (b).</h2>
           </div>
           <div class="item">
-            <img src="./static/images/Sensor_Placement.png" alt="Sensor Placement">
-            <h2 class="subtitle has-text-centered">Sensor Placement on the Upper Limb</h2>
+            <img src="./static/images/paper/fig4.png" alt="Joint kinematics by movement and speed">
+            <h2 class="subtitle has-text-centered">Figure 4. Mean joint kinematics across subjects for each movement and speed, normalized by motion cycle.</h2>
+          </div>
+          <div class="item">
+            <img src="./static/images/paper/fig5.png" alt="Movement classification confusion matrices">
+            <h2 class="subtitle has-text-centered">Figure 5. Movement classification confusion matrices by modality: sEMG, IMU, and sEMG+IMU (best).</h2>
           </div>
         </div>
       </div>
@@ -188,48 +232,16 @@
 
 <!-- Dataset Folder Structure Section -->
 <section class="section">
-  <div class="container">
-    <h2 class="title is-3 has-text-centered">Dataset Folder Structure</h2>
-    <div class="content">
-      <pre><code>
-Dataset Root:
-│   ├── Bilateral Upper Extremity Trunk Model_markered.osim
-│   ├── opensim.log
-│   ├── subject_X.osim                                   # OpenSim models for each subject (X=1, 2, ... 13)
-│   ├── default_ik.xml
-│   ├── _ik_marker_errors.sto
-│
-├───P01                                                  # Subject 01 data
-│   │   ├── scaling_v0.xml                               # Initial scaling for OpenSim
-│   │   ├── scaling_v1.xml
-│   │
-│   ├───raw_sensor                                       # Raw sensor data (CSV)
-│   │       ├── P01_T1_EF_F.csv                          # T1, Elbow Flexion (EF), Fast (F)
-│   │       ├── P01_T1_AS_VF.csv                         # T1, Arm Swing (AS), Very Fast (VF)
-│   │       └── ...
-│   │
-│   ├───raw_marker                                       # Raw marker data (TRC)
-│   │       ├── P01_T1_EF_F.trc
-│   │       ├── P01_T1_AS_VF.trc
-│   │       └── ...
-│   │
-│   └───processed_joint_kinematics                       # Processed kinematics (MOT)
-│           ├── P01_T1_EF_F.mot
-│           ├── P01_T1_AS_VF.mot
-│           └── ...
-│
-├───P02                                                  # Subject 02 data
-│   │   ├── scaling_v0.xml
-│   │   ├── scaling_v1.xml
-│   ├───raw_sensor
-│   ├───raw_marker
-│   └───processed_joint_kinematics
-│
-├───P03                                                  # Similar structure for Subject 03
-│
-└───P04                                                  # Similar structure for Subject 04
-      </code></pre>
+  <div class="container has-text-centered">
+    <h2 class="title is-3">Dataset Structure</h2>
+    <div class="columns is-centered">
+      <div class="column is-half">
+        <img src="./static/images/paper/fig3.png" alt="ULTRA-MoCap dataset structure">
+      </div>
     </div>
+    <p class="content">Figure 3. Per subject, each movement provides synchronized sEMG, IMU, raw and
+      processed inverse-kinematics, and raw marker files, alongside the OpenSim model and a combined
+      <code>All_subjects_data.h5</code>.</p>
   </div>
 </section>
 
@@ -237,7 +249,16 @@ Dataset Root:
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>@article{Fritsche2024, title={Multimodal IMU and EMG Dataset for Deep Learning in Upper Body Kinematic Analysis}, author={Fritsche, Oliver and others}, journal={arXiv preprint arXiv:YOUR_ARXIV_ID}, year={2024}}</code></pre>
+      <pre><code>@article{fritsche2026ultramocap,
+  title   = {ULTRA-MoCap: A Multimodal IMU and sEMG Dataset for Upper Body Joint Kinematics Analysis},
+  author  = {Fritsche, Oliver and Camacho, Steven and Hossain, Md Sanzid Bin and Halfpenny, Tyler
+             and Arciniegas, Carlos and Dranetz, Joseph and Hadley, Dexter and Guo, Zhishan and Choi, Hwan},
+  journal = {Scientific Data},
+  volume  = {13},
+  pages   = {622},
+  year    = {2026},
+  doi     = {10.1038/s41597-026-06687-5}
+}</code></pre>
     </div>
   </section>
 
